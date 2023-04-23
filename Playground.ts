@@ -83,11 +83,11 @@ class Mind{
     	this.m_publish.append("Ask myself: \"" + explore + " ?\"");
     }
 
-    onInhalation(explore : string){
-        this.m_publish.append("during inhelation ask myself: \"" + explore + "\"");
+    onInhalation(sat : string){
+        this.m_publish.append("during inhelation see that " + sat + "\n");
     }
-    onExhelation(explore : string){
-        this.m_publish.append("during exhelation ask myself: \"" + explore + "\"");
+    onExhelation(num : string){
+        this.m_publish.append("during exhelation see that " + num + "\n");
     }
 
     hello_world() {
@@ -155,7 +155,10 @@ class Mind{
         /* step 1 – smile to the universe, it is all your creation */
         this.hello_world(); 
         /* step 2 - adjust your standpoint to 1st person point of view */
-        this.oscillate();
+        this.oscillate(
+            "my 'energetic body' expands infinitly to the size of the universe",
+            "I am a zero sized witness, absorbing the infinite universe"
+        );
         /* step 3 - imagine forms of future physical situation, from your point of view*/
         this.speed_up(futureSituation, "future");
         /* step 4 - smaile, you have just creaeted physical reality */
@@ -232,8 +235,8 @@ class Main {
     cl.print("\n oscillate");
     cl.print("[---");
     M.oscillate(
-        "Am I the whole universe ?",
-        "Am I nothing but a witness ?"
+        "I am the whole universe",
+        "I am nothing but a witness"
     );
     cl.print("---]");
 
