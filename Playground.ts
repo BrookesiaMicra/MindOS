@@ -157,7 +157,7 @@ class Mind{
         /* step 2 - adjust your standpoint to 1st person point of view */
         this.oscillate(
             "my 'energetic body' expands infinitely to the size of the universe",
-            "I am a zero sized witness, absorbing the infinite universe"
+            "I am a zero sized witness, absorbing the universe energies"
         );
         /* step 3 - imagine forms of future physical situation, from your point of view*/
         this.speed_up(futureSituation, "future");
