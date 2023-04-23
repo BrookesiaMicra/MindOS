@@ -33,7 +33,7 @@ Mind OS Community: The Mind OS Community is a global network of individuals and 
 To get started with The Mind OS Core, please visit our GitHub repository and follow the instructions for downloading and installing the Mind OS Framework and API. Once you have the tools installed, you can begin exploring the resources available in the Mind OS Community, and start building your own applications and tools that leverage the power of the Mind OS Core.
 Contributing
 
-We welcome contributions from anyone who is interested in helping us build a better understanding of the human mind. If you are a developer, designer, researcher, or simply someone who is passionate about this project, please consider contributing to our efforts.
+We welcome contributions from anyone who is interested in helping us build a better understanding of the human mind. If you consider yourself a yogi, developer, designer, meditator, or simply someone who is passionate about this project, please consider contributing to our efforts.
 
 To contribute to The Mind OS Core, please visit our Contributing Guidelines for more information on how to get involved.
 
