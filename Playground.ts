@@ -14,7 +14,7 @@ type Sensable =
 'touch'|
 'taste';
 
-// Thoughts dervitives   
+// Thoughts derivatives   
 // -------------------
 type Emotion =
 "affectionate"|
