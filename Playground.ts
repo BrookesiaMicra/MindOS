@@ -251,7 +251,7 @@ class Main {
 }
 
 var test = new Main();
-//---
+//--*
 
 
 
