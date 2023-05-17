@@ -143,7 +143,7 @@ class Mind{
         this.hello_world(); 
         /* step 5 – relax */
         this.slow_down(anchor); 
-        this.m_publish.out();ff
+        this.m_publish.out();
     };
 
     oscillate(sat:string, num:string){
@@ -251,7 +251,8 @@ class Main {
 }
 
 var test = new Main();
-//--*
+//--***
+
 
 
 
