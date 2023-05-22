@@ -14,6 +14,10 @@ type Sensable =
 'touch'|
 'taste';
 
+// a custom type for junction representing meeting points of human body parts
+type BodyJunction = "thumb-pointing" | "soles-of-feet" | "center-of-chest" | /* Add more meeting points as needed */;
+
+
 // Thoughts derivatives   
 // -------------------
 type Emotion =
@@ -36,6 +40,10 @@ type Positivity =  "negative" | "positive";
 type Truthfulness = "truth" | "false";
 type Livelihood = "life" | "death";
 type Polars = Time | Positivity | Truthfulness | Livelihood;
+
+// a custom type for qualities representing different qualities and aspects of our being
+type Qualities = "wisdom" | "profound-perception" | "grounding" | "stability" | "forward movement" | "love" | /* Add more qualities as needed */;
+
 
 type Any = Sensable | Emotion | Polars;
 
@@ -167,6 +175,21 @@ class Mind{
         this.slow_down("breath"); 
         this.m_publish.out();
     }
+
+    tune_junction(junction: BodyJunction, qualities: Qualities[]): void {
+        // Loop through each quality and associate it with the junction
+        for (const quality of qualities) {
+          // Use the say_to_myself method to imbue the relationship between the junction and quality
+          this.say_to_myself(`The junction '${junction}' is imbued with the quality of '${quality}'.`);
+        }
+        this.m_publish.out();
+      }
+
+    watch_junction(junction: BodyJunction) {
+        // Shift our attention to the specified junction in the physical net
+        this.ask_myself(`what is the current sensation at my '${junction}'`);
+        this.m_publish.out();
+    }
  	 
 }
 
@@ -246,6 +269,19 @@ class Main {
     var scene:Sensable[] = ["sight"];
     M.create(scene);
     cl.print("---]");
+
+    cl.print("\n tune_junction");
+    cl.print("[---");
+    M.tune_junction("thumb-pointing", ["wisdom", "profound-perception" ]);
+    cl.print("---]");
+
+    cl.print("\n watch_junction");
+    cl.print("[---");
+    M.watch_junction("thumb-pointing");
+    cl.print("---]");
+
+
+
     
   }
 }
