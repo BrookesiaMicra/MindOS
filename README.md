@@ -1,8 +1,11 @@
 # MindOS
-a software-like model usefull for evolving the human mind
+A software-like model usefull for evolving the human mind, and the humankind.
 
 
-The Mind OS is an open-source project aimed at creating a software-like model of the human mind, so that it can be used to improve our lives.
+The MindOS is an open-source project aimed at creating a software-like model of the human mind, so that it can be used to improve our lives.
+
+# State of affairs [June 4 2023]:
+MindOS is currently in it's incubation phase, which is projected to be subsumed by a newer version at June 21st.
 
 # Introduction
 
@@ -20,7 +23,7 @@ Collaboration: We believe that collaboration is essential to achieving our goals
 
 ## Features
 
-MindScript: An existential scripting language, (currently develpoped on top of TypeScript) which is desined do express existential concepts in a formal way.
+MindScript: An existential scripting language, (currently developed on top of TypeScript) which is desined to express existential concepts in a formal way.
     
 Mind OS Core: The Mind OS Core is the core model which reflect the way thoughts are running through our head. The core is described @ https://medium.com/@uchtchi_buchtchi/smile-9c72bde02c19?source=friends_link&sk=45f2aca1d917874ccc88aaf10fa9e098
 
